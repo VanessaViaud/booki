@@ -394,8 +394,12 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
-.footer-colonnes a {
+.footer-colonnes ul {
+    list-style-type:none;
+    margin-block-start: 0em;
+    margin-block-end:0em ;
+}
+.footer-colonnes li {
     margin-bottom: 20px;
 }
 
