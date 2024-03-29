@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    display:grid;
+    display: grid;
     gap: 30px;
 }
 
@@ -77,15 +77,14 @@ ul {
 header {
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
 header img {
-    width: 60px;;
+    width: 60px;
     padding-top: 20px;
-
 }
 
 nav li {
@@ -131,13 +130,13 @@ nav a:hover {
 /****** Présentation ******/
 
 h1 {
-    font-size:22px;
+    font-size: 22px;
 }
 
 /***** Formulaire de recherche ******/
 
 .formulaire-rechercher {
-    width:400px
+    width: 400px
 }
 
 .formulaire {
@@ -164,7 +163,7 @@ h1 {
 }
 
 .bouton_formulaire {
-    background-color:var(--main-color);
+    background-color: var(--main-color);
     padding: 10px;
     border-radius: 0px 10px 10px 0px;
     border: 1px solid var(--main-color);
@@ -199,7 +198,7 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .titre-filtres {
@@ -224,12 +223,12 @@ h1 {
 .fa-fire,
 .fa-money-bill-wave,
 .fa-person {
-    margin-right:10px;
+    margin-right: 10px;
     width: 15px;
 }
 
 .style-filtres:hover {
-    background-color:var(--filter-bg-color);
+    background-color: var(--filter-bg-color);
 }
 
 
@@ -395,7 +394,7 @@ h1 {
 
 .activites-cards .card-title {
     padding: 15px;
-    margin-block:0px;
+    margin-block: 0px;
 }
 
 
@@ -415,9 +414,9 @@ footer {
 }
 
 .footer-colonnes ul {
-    list-style-type:none;
+    list-style-type: none;
     margin-block-start: 0em;
-    margin-block-end:0em ;
+    margin-block-end: 0em ;
 }
 
 .footer-colonnes li {
@@ -554,7 +553,7 @@ footer {
     nav li:hover {
         border-bottom: 2px solid var(--main-color);
         display: flex;
-        align-items:flex-end;
+        align-items: flex-end;
     }
 
     .formulaire-rechercher {
