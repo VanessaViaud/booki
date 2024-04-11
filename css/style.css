@@ -84,7 +84,7 @@ header {
 
 header img {
     width: 60px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 nav li {
@@ -97,17 +97,18 @@ nav li {
     flex-direction: row;
     justify-content: space-between;
     gap: 50px;
+    margin:0px
 }
 
 nav a {
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 nav a:active,
 nav a:hover {
     color: var(--main-color);
     border-top: 1px solid var(--main-color);
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 /***** recherche hébergements ******/
@@ -600,14 +601,18 @@ footer {
     .boutons-filtres {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 320px;
+        width: 100%;
     }
 
     .style-filtres {
         margin-left: 0px;
-        width: 125px;
+ 
     }
 
+    .hebergements-and-populaires {
+        width: 100%;
+    }
+    
     .hebergements {
         width: 100%;
         display: flex;
